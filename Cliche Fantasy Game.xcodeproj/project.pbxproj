@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BA3F37318B41BDC00CD44FC /* JWCSpriteNodeHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA3F37218B41BDC00CD44FC /* JWCSpriteNodeHero.m */; };
+		6BA3F37618B41EAE00CD44FC /* NELadder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA3F37518B41EAE00CD44FC /* NELadder.png */; };
+		6BA3F37818B4271100CD44FC /* ELadder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA3F37718B4271100CD44FC /* ELadder.png */; };
+		6BA3F37A18B427A600CD44FC /* ETallerLadder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA3F37918B427A600CD44FC /* ETallerLadder.png */; };
+		6BA3F38618B42E8500CD44FC /* YMCPhysicsDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA3F37D18B42E8500CD44FC /* YMCPhysicsDebugger.m */; };
+		6BA3F38718B42E8500CD44FC /* YMCPhysicsDebugProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA3F37F18B42E8500CD44FC /* YMCPhysicsDebugProperties.m */; };
+		6BA3F38818B42E8500CD44FC /* YMCSKNode+PhysicsDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA3F38118B42E8500CD44FC /* YMCSKNode+PhysicsDebug.m */; };
+		6BA3F38918B42E8500CD44FC /* YMCSKPhysicsBody+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA3F38318B42E8500CD44FC /* YMCSKPhysicsBody+Swizzle.m */; };
+		6BA3F38A18B42E8500CD44FC /* YMCSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA3F38518B42E8500CD44FC /* YMCSwizzler.m */; };
+		6BA3F38D18B44CCD00CD44FC /* JWCSceneInsideHouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA3F38C18B44CCD00CD44FC /* JWCSceneInsideHouse.m */; };
+		6BA80CA518B2CD4A00304FF8 /* HunterPickingUpRight.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6BA80CA418B2CD4A00304FF8 /* HunterPickingUpRight.atlas */; };
+		6BA80CA718B2CDE600304FF8 /* HunterWalkingRight.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6BA80CA618B2CDE600304FF8 /* HunterWalkingRight.atlas */; };
+		6BA80CB218B2D75A00304FF8 /* Mushrooms.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6BA80CB118B2D75A00304FF8 /* Mushrooms.atlas */; };
+		6BA80CB818B3100300304FF8 /* Obstacles.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6BA80CB718B3100300304FF8 /* Obstacles.atlas */; };
+		6BA80CBB18B3181A00304FF8 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA80CBA18B3181A00304FF8 /* GameOverScene.m */; };
+		6BD67E2118B4183300ABD8D7 /* JWCSpriteNodeWall.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD67E2018B4183300ABD8D7 /* JWCSpriteNodeWall.m */; };
+		6BD6C32C18B2B3F100AEC21C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD6C32B18B2B3F100AEC21C /* Foundation.framework */; };
+		6BD6C32E18B2B3F100AEC21C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD6C32D18B2B3F100AEC21C /* CoreGraphics.framework */; };
+		6BD6C33018B2B3F100AEC21C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD6C32F18B2B3F100AEC21C /* UIKit.framework */; };
+		6BD6C33218B2B3F100AEC21C /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD6C33118B2B3F100AEC21C /* SpriteKit.framework */; };
+		6BD6C33818B2B3F100AEC21C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6C33618B2B3F100AEC21C /* InfoPlist.strings */; };
+		6BD6C33A18B2B3F100AEC21C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6C33918B2B3F100AEC21C /* main.m */; };
+		6BD6C33E18B2B3F100AEC21C /* JWCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6C33D18B2B3F100AEC21C /* JWCAppDelegate.m */; };
+		6BD6C34118B2B3F100AEC21C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6C33F18B2B3F100AEC21C /* Main.storyboard */; };
+		6BD6C34418B2B3F100AEC21C /* JWCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6C34318B2B3F100AEC21C /* JWCViewController.m */; };
+		6BD6C34718B2B3F100AEC21C /* JWCSceneForestMushrooms.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6C34618B2B3F100AEC21C /* JWCSceneForestMushrooms.m */; };
+		6BD6C34B18B2B3F100AEC21C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6C34A18B2B3F100AEC21C /* Images.xcassets */; };
+		6BD6C35218B2B3F100AEC21C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD6C35118B2B3F100AEC21C /* XCTest.framework */; };
+		6BD6C35318B2B3F100AEC21C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD6C32B18B2B3F100AEC21C /* Foundation.framework */; };
+		6BD6C35418B2B3F100AEC21C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD6C32F18B2B3F100AEC21C /* UIKit.framework */; };
+		6BD6C35C18B2B3F100AEC21C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6C35A18B2B3F100AEC21C /* InfoPlist.strings */; };
+		6BD6C35E18B2B3F100AEC21C /* Cliche_Fantasy_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6C35D18B2B3F100AEC21C /* Cliche_Fantasy_GameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BD6C35518B2B3F100AEC21C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BD6C32018B2B3F100AEC21C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BD6C32718B2B3F100AEC21C;
+			remoteInfo = "Cliche Fantasy Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BA3F36E18B41A9100CD44FC /* JWCColliderType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWCColliderType.h; sourceTree = "<group>"; };
+		6BA3F37118B41BDC00CD44FC /* JWCSpriteNodeHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCSpriteNodeHero.h; sourceTree = "<group>"; };
+		6BA3F37218B41BDC00CD44FC /* JWCSpriteNodeHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCSpriteNodeHero.m; sourceTree = "<group>"; };
+		6BA3F37518B41EAE00CD44FC /* NELadder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NELadder.png; sourceTree = "<group>"; };
+		6BA3F37718B4271100CD44FC /* ELadder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ELadder.png; sourceTree = "<group>"; };
+		6BA3F37918B427A600CD44FC /* ETallerLadder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ETallerLadder.png; sourceTree = "<group>"; };
+		6BA3F37C18B42E8500CD44FC /* YMCPhysicsDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCPhysicsDebugger.h; sourceTree = "<group>"; };
+		6BA3F37D18B42E8500CD44FC /* YMCPhysicsDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCPhysicsDebugger.m; sourceTree = "<group>"; };
+		6BA3F37E18B42E8500CD44FC /* YMCPhysicsDebugProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCPhysicsDebugProperties.h; sourceTree = "<group>"; };
+		6BA3F37F18B42E8500CD44FC /* YMCPhysicsDebugProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCPhysicsDebugProperties.m; sourceTree = "<group>"; };
+		6BA3F38018B42E8500CD44FC /* YMCSKNode+PhysicsDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YMCSKNode+PhysicsDebug.h"; sourceTree = "<group>"; };
+		6BA3F38118B42E8500CD44FC /* YMCSKNode+PhysicsDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YMCSKNode+PhysicsDebug.m"; sourceTree = "<group>"; };
+		6BA3F38218B42E8500CD44FC /* YMCSKPhysicsBody+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YMCSKPhysicsBody+Swizzle.h"; sourceTree = "<group>"; };
+		6BA3F38318B42E8500CD44FC /* YMCSKPhysicsBody+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YMCSKPhysicsBody+Swizzle.m"; sourceTree = "<group>"; };
+		6BA3F38418B42E8500CD44FC /* YMCSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCSwizzler.h; sourceTree = "<group>"; };
+		6BA3F38518B42E8500CD44FC /* YMCSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCSwizzler.m; sourceTree = "<group>"; };
+		6BA3F38B18B44CCD00CD44FC /* JWCSceneInsideHouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCSceneInsideHouse.h; sourceTree = "<group>"; };
+		6BA3F38C18B44CCD00CD44FC /* JWCSceneInsideHouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCSceneInsideHouse.m; sourceTree = "<group>"; };
+		6BA80CA418B2CD4A00304FF8 /* HunterPickingUpRight.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = HunterPickingUpRight.atlas; sourceTree = "<group>"; };
+		6BA80CA618B2CDE600304FF8 /* HunterWalkingRight.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = HunterWalkingRight.atlas; sourceTree = "<group>"; };
+		6BA80CB118B2D75A00304FF8 /* Mushrooms.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Mushrooms.atlas; sourceTree = "<group>"; };
+		6BA80CB718B3100300304FF8 /* Obstacles.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Obstacles.atlas; sourceTree = "<group>"; };
+		6BA80CB918B3181A00304FF8 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		6BA80CBA18B3181A00304FF8 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		6BD67E1F18B4183300ABD8D7 /* JWCSpriteNodeWall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCSpriteNodeWall.h; sourceTree = "<group>"; };
+		6BD67E2018B4183300ABD8D7 /* JWCSpriteNodeWall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCSpriteNodeWall.m; sourceTree = "<group>"; };
+		6BD6C32818B2B3F100AEC21C /* Cliche Fantasy Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cliche Fantasy Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD6C32B18B2B3F100AEC21C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BD6C32D18B2B3F100AEC21C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BD6C32F18B2B3F100AEC21C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6BD6C33118B2B3F100AEC21C /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		6BD6C33518B2B3F100AEC21C /* Cliche Fantasy Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cliche Fantasy Game-Info.plist"; sourceTree = "<group>"; };
+		6BD6C33718B2B3F100AEC21C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BD6C33918B2B3F100AEC21C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BD6C33B18B2B3F100AEC21C /* Cliche Fantasy Game-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cliche Fantasy Game-Prefix.pch"; sourceTree = "<group>"; };
+		6BD6C33C18B2B3F100AEC21C /* JWCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWCAppDelegate.h; sourceTree = "<group>"; };
+		6BD6C33D18B2B3F100AEC21C /* JWCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWCAppDelegate.m; sourceTree = "<group>"; };
+		6BD6C34018B2B3F100AEC21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BD6C34218B2B3F100AEC21C /* JWCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWCViewController.h; sourceTree = "<group>"; };
+		6BD6C34318B2B3F100AEC21C /* JWCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWCViewController.m; sourceTree = "<group>"; };
+		6BD6C34518B2B3F100AEC21C /* JWCSceneForestMushrooms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWCSceneForestMushrooms.h; sourceTree = "<group>"; };
+		6BD6C34618B2B3F100AEC21C /* JWCSceneForestMushrooms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWCSceneForestMushrooms.m; sourceTree = "<group>"; };
+		6BD6C34A18B2B3F100AEC21C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6BD6C35018B2B3F100AEC21C /* Cliche Fantasy GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cliche Fantasy GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD6C35118B2B3F100AEC21C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6BD6C35918B2B3F100AEC21C /* Cliche Fantasy GameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cliche Fantasy GameTests-Info.plist"; sourceTree = "<group>"; };
+		6BD6C35B18B2B3F100AEC21C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BD6C35D18B2B3F100AEC21C /* Cliche_Fantasy_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cliche_Fantasy_GameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BD6C32518B2B3F100AEC21C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD6C32E18B2B3F100AEC21C /* CoreGraphics.framework in Frameworks */,
+				6BD6C33018B2B3F100AEC21C /* UIKit.framework in Frameworks */,
+				6BD6C33218B2B3F100AEC21C /* SpriteKit.framework in Frameworks */,
+				6BD6C32C18B2B3F100AEC21C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BD6C34D18B2B3F100AEC21C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD6C35218B2B3F100AEC21C /* XCTest.framework in Frameworks */,
+				6BD6C35418B2B3F100AEC21C /* UIKit.framework in Frameworks */,
+				6BD6C35318B2B3F100AEC21C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BA3F36F18B41AA400CD44FC /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6BA3F38B18B44CCD00CD44FC /* JWCSceneInsideHouse.h */,
+				6BA3F38C18B44CCD00CD44FC /* JWCSceneInsideHouse.m */,
+				6BD6C34518B2B3F100AEC21C /* JWCSceneForestMushrooms.h */,
+				6BD6C34618B2B3F100AEC21C /* JWCSceneForestMushrooms.m */,
+				6BA80CB918B3181A00304FF8 /* GameOverScene.h */,
+				6BA80CBA18B3181A00304FF8 /* GameOverScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		6BA3F37018B41AAD00CD44FC /* SpriteNodes */ = {
+			isa = PBXGroup;
+			children = (
+				6BA3F37118B41BDC00CD44FC /* JWCSpriteNodeHero.h */,
+				6BA3F37218B41BDC00CD44FC /* JWCSpriteNodeHero.m */,
+				6BD67E1F18B4183300ABD8D7 /* JWCSpriteNodeWall.h */,
+				6BD67E2018B4183300ABD8D7 /* JWCSpriteNodeWall.m */,
+			);
+			name = SpriteNodes;
+			sourceTree = "<group>";
+		};
+		6BA3F37418B41EA100CD44FC /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				6BA3F37918B427A600CD44FC /* ETallerLadder.png */,
+				6BA3F37718B4271100CD44FC /* ELadder.png */,
+				6BA3F37518B41EAE00CD44FC /* NELadder.png */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		6BA3F37B18B42E8500CD44FC /* YMCPhysicsDebugger */ = {
+			isa = PBXGroup;
+			children = (
+				6BA3F37C18B42E8500CD44FC /* YMCPhysicsDebugger.h */,
+				6BA3F37D18B42E8500CD44FC /* YMCPhysicsDebugger.m */,
+				6BA3F37E18B42E8500CD44FC /* YMCPhysicsDebugProperties.h */,
+				6BA3F37F18B42E8500CD44FC /* YMCPhysicsDebugProperties.m */,
+				6BA3F38018B42E8500CD44FC /* YMCSKNode+PhysicsDebug.h */,
+				6BA3F38118B42E8500CD44FC /* YMCSKNode+PhysicsDebug.m */,
+				6BA3F38218B42E8500CD44FC /* YMCSKPhysicsBody+Swizzle.h */,
+				6BA3F38318B42E8500CD44FC /* YMCSKPhysicsBody+Swizzle.m */,
+				6BA3F38418B42E8500CD44FC /* YMCSwizzler.h */,
+				6BA3F38518B42E8500CD44FC /* YMCSwizzler.m */,
+			);
+			path = YMCPhysicsDebugger;
+			sourceTree = "<group>";
+		};
+		6BD6C31F18B2B3F100AEC21C = {
+			isa = PBXGroup;
+			children = (
+				6BD6C33318B2B3F100AEC21C /* Cliche Fantasy Game */,
+				6BD6C35718B2B3F100AEC21C /* Cliche Fantasy GameTests */,
+				6BD6C32A18B2B3F100AEC21C /* Frameworks */,
+				6BD6C32918B2B3F100AEC21C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BD6C32918B2B3F100AEC21C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BD6C32818B2B3F100AEC21C /* Cliche Fantasy Game.app */,
+				6BD6C35018B2B3F100AEC21C /* Cliche Fantasy GameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BD6C32A18B2B3F100AEC21C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BD6C32B18B2B3F100AEC21C /* Foundation.framework */,
+				6BD6C32D18B2B3F100AEC21C /* CoreGraphics.framework */,
+				6BD6C32F18B2B3F100AEC21C /* UIKit.framework */,
+				6BD6C33118B2B3F100AEC21C /* SpriteKit.framework */,
+				6BD6C35118B2B3F100AEC21C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BD6C33318B2B3F100AEC21C /* Cliche Fantasy Game */ = {
+			isa = PBXGroup;
+			children = (
+				6BD6C33C18B2B3F100AEC21C /* JWCAppDelegate.h */,
+				6BD6C33D18B2B3F100AEC21C /* JWCAppDelegate.m */,
+				6BD6C33F18B2B3F100AEC21C /* Main.storyboard */,
+				6BD6C34218B2B3F100AEC21C /* JWCViewController.h */,
+				6BD6C34318B2B3F100AEC21C /* JWCViewController.m */,
+				6BA3F36F18B41AA400CD44FC /* Scenes */,
+				6BA3F37018B41AAD00CD44FC /* SpriteNodes */,
+				6BA3F36E18B41A9100CD44FC /* JWCColliderType.h */,
+				6BD6C34A18B2B3F100AEC21C /* Images.xcassets */,
+				6BA3F37418B41EA100CD44FC /* Misc */,
+				6BA80CB718B3100300304FF8 /* Obstacles.atlas */,
+				6BA80CB118B2D75A00304FF8 /* Mushrooms.atlas */,
+				6BA80CA618B2CDE600304FF8 /* HunterWalkingRight.atlas */,
+				6BA80CA418B2CD4A00304FF8 /* HunterPickingUpRight.atlas */,
+				6BD6C33418B2B3F100AEC21C /* Supporting Files */,
+			);
+			path = "Cliche Fantasy Game";
+			sourceTree = "<group>";
+		};
+		6BD6C33418B2B3F100AEC21C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BA3F37B18B42E8500CD44FC /* YMCPhysicsDebugger */,
+				6BD6C33518B2B3F100AEC21C /* Cliche Fantasy Game-Info.plist */,
+				6BD6C33618B2B3F100AEC21C /* InfoPlist.strings */,
+				6BD6C33918B2B3F100AEC21C /* main.m */,
+				6BD6C33B18B2B3F100AEC21C /* Cliche Fantasy Game-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BD6C35718B2B3F100AEC21C /* Cliche Fantasy GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BD6C35D18B2B3F100AEC21C /* Cliche_Fantasy_GameTests.m */,
+				6BD6C35818B2B3F100AEC21C /* Supporting Files */,
+			);
+			path = "Cliche Fantasy GameTests";
+			sourceTree = "<group>";
+		};
+		6BD6C35818B2B3F100AEC21C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BD6C35918B2B3F100AEC21C /* Cliche Fantasy GameTests-Info.plist */,
+				6BD6C35A18B2B3F100AEC21C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BD6C32718B2B3F100AEC21C /* Cliche Fantasy Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BD6C36118B2B3F100AEC21C /* Build configuration list for PBXNativeTarget "Cliche Fantasy Game" */;
+			buildPhases = (
+				6BD6C32418B2B3F100AEC21C /* Sources */,
+				6BD6C32518B2B3F100AEC21C /* Frameworks */,
+				6BD6C32618B2B3F100AEC21C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cliche Fantasy Game";
+			productName = "Cliche Fantasy Game";
+			productReference = 6BD6C32818B2B3F100AEC21C /* Cliche Fantasy Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BD6C34F18B2B3F100AEC21C /* Cliche Fantasy GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BD6C36418B2B3F100AEC21C /* Build configuration list for PBXNativeTarget "Cliche Fantasy GameTests" */;
+			buildPhases = (
+				6BD6C34C18B2B3F100AEC21C /* Sources */,
+				6BD6C34D18B2B3F100AEC21C /* Frameworks */,
+				6BD6C34E18B2B3F100AEC21C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BD6C35618B2B3F100AEC21C /* PBXTargetDependency */,
+			);
+			name = "Cliche Fantasy GameTests";
+			productName = "Cliche Fantasy GameTests";
+			productReference = 6BD6C35018B2B3F100AEC21C /* Cliche Fantasy GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BD6C32018B2B3F100AEC21C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JWC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jeff Schwab";
+				TargetAttributes = {
+					6BD6C34F18B2B3F100AEC21C = {
+						TestTargetID = 6BD6C32718B2B3F100AEC21C;
+					};
+				};
+			};
+			buildConfigurationList = 6BD6C32318B2B3F100AEC21C /* Build configuration list for PBXProject "Cliche Fantasy Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BD6C31F18B2B3F100AEC21C;
+			productRefGroup = 6BD6C32918B2B3F100AEC21C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BD6C32718B2B3F100AEC21C /* Cliche Fantasy Game */,
+				6BD6C34F18B2B3F100AEC21C /* Cliche Fantasy GameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BD6C32618B2B3F100AEC21C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA3F37A18B427A600CD44FC /* ETallerLadder.png in Resources */,
+				6BA80CA718B2CDE600304FF8 /* HunterWalkingRight.atlas in Resources */,
+				6BD6C33818B2B3F100AEC21C /* InfoPlist.strings in Resources */,
+				6BD6C34B18B2B3F100AEC21C /* Images.xcassets in Resources */,
+				6BA80CB218B2D75A00304FF8 /* Mushrooms.atlas in Resources */,
+				6BA80CA518B2CD4A00304FF8 /* HunterPickingUpRight.atlas in Resources */,
+				6BD6C34118B2B3F100AEC21C /* Main.storyboard in Resources */,
+				6BA3F37618B41EAE00CD44FC /* NELadder.png in Resources */,
+				6BA80CB818B3100300304FF8 /* Obstacles.atlas in Resources */,
+				6BA3F37818B4271100CD44FC /* ELadder.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BD6C34E18B2B3F100AEC21C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD6C35C18B2B3F100AEC21C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BD6C32418B2B3F100AEC21C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA3F38618B42E8500CD44FC /* YMCPhysicsDebugger.m in Sources */,
+				6BA80CBB18B3181A00304FF8 /* GameOverScene.m in Sources */,
+				6BD67E2118B4183300ABD8D7 /* JWCSpriteNodeWall.m in Sources */,
+				6BA3F38D18B44CCD00CD44FC /* JWCSceneInsideHouse.m in Sources */,
+				6BA3F38A18B42E8500CD44FC /* YMCSwizzler.m in Sources */,
+				6BA3F38918B42E8500CD44FC /* YMCSKPhysicsBody+Swizzle.m in Sources */,
+				6BA3F37318B41BDC00CD44FC /* JWCSpriteNodeHero.m in Sources */,
+				6BD6C33A18B2B3F100AEC21C /* main.m in Sources */,
+				6BD6C33E18B2B3F100AEC21C /* JWCAppDelegate.m in Sources */,
+				6BD6C34418B2B3F100AEC21C /* JWCViewController.m in Sources */,
+				6BD6C34718B2B3F100AEC21C /* JWCSceneForestMushrooms.m in Sources */,
+				6BA3F38718B42E8500CD44FC /* YMCPhysicsDebugProperties.m in Sources */,
+				6BA3F38818B42E8500CD44FC /* YMCSKNode+PhysicsDebug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BD6C34C18B2B3F100AEC21C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD6C35E18B2B3F100AEC21C /* Cliche_Fantasy_GameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BD6C35618B2B3F100AEC21C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BD6C32718B2B3F100AEC21C /* Cliche Fantasy Game */;
+			targetProxy = 6BD6C35518B2B3F100AEC21C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BD6C33618B2B3F100AEC21C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BD6C33718B2B3F100AEC21C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6BD6C33F18B2B3F100AEC21C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BD6C34018B2B3F100AEC21C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BD6C35A18B2B3F100AEC21C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BD6C35B18B2B3F100AEC21C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BD6C35F18B2B3F100AEC21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BD6C36018B2B3F100AEC21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BD6C36218B2B3F100AEC21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cliche Fantasy Game/Cliche Fantasy Game-Prefix.pch";
+				INFOPLIST_FILE = "Cliche Fantasy Game/Cliche Fantasy Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BD6C36318B2B3F100AEC21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cliche Fantasy Game/Cliche Fantasy Game-Prefix.pch";
+				INFOPLIST_FILE = "Cliche Fantasy Game/Cliche Fantasy Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6BD6C36518B2B3F100AEC21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cliche Fantasy Game.app/Cliche Fantasy Game";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cliche Fantasy Game/Cliche Fantasy Game-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cliche Fantasy GameTests/Cliche Fantasy GameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6BD6C36618B2B3F100AEC21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cliche Fantasy Game.app/Cliche Fantasy Game";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cliche Fantasy Game/Cliche Fantasy Game-Prefix.pch";
+				INFOPLIST_FILE = "Cliche Fantasy GameTests/Cliche Fantasy GameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BD6C32318B2B3F100AEC21C /* Build configuration list for PBXProject "Cliche Fantasy Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD6C35F18B2B3F100AEC21C /* Debug */,
+				6BD6C36018B2B3F100AEC21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BD6C36118B2B3F100AEC21C /* Build configuration list for PBXNativeTarget "Cliche Fantasy Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD6C36218B2B3F100AEC21C /* Debug */,
+				6BD6C36318B2B3F100AEC21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BD6C36418B2B3F100AEC21C /* Build configuration list for PBXNativeTarget "Cliche Fantasy GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD6C36518B2B3F100AEC21C /* Debug */,
+				6BD6C36618B2B3F100AEC21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BD6C32018B2B3F100AEC21C /* Project object */;
+}
